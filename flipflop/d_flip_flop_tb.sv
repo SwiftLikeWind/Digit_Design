@@ -8,7 +8,7 @@ module d_flip_flop_tb;
     wire Q;
 
     // Instantiate D Flip-Flop
-    flip_flop uut (
+    d_flip_flop uut (
         .D(D),
         .clk(CLK),
         .reset(RESET),
